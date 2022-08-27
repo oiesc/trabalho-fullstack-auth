@@ -1,4 +1,4 @@
-package com.example.trabalhofullstackauth.plugins;
+package com.example.trabalhofullstackauth.application.plugins.swagger;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
