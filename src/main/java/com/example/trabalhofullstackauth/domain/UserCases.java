@@ -13,7 +13,7 @@ import java.util.Optional;
 
 public class UserCases {
     @Autowired
-    UserRepository userRepository;
+    public UserRepository userRepository;
 
     public ResponseEntity<?> createUser(CreateUserForm userForm) {
         UserModel user = userForm.transform();
