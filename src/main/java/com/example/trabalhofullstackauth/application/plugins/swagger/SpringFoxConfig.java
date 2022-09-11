@@ -28,8 +28,7 @@ public class SpringFoxConfig implements WebMvcConfigurer {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("REST API")
-                .description("Servicesx")
+                .title("REST API - User")
                 .build();
     }
 
